@@ -1,0 +1,129 @@
+@media screen and (max-width: 992px) {
+    .glyphy {
+        display: none;
+    }
+    .aboutLead {
+      font-size: 1.5em;
+    }
+}
+
+.aboutHeading {
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+.aboutLead {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.aboutMe {
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  padding: 1em 0 0 0;
+  font-size: 1.2em;
+  text-align: left;
+  line-height: 145%;
+  width: 98%;
+}
+
+.aboutPic {
+  width: 100%;
+  border-radius: .3em; 
+}
+
+.blurb {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  font-weight: 900;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 6em 0;
+  padding: 1em 1em;
+  vertical-align: middle;
+}
+
+.bodyStyle {
+   background-color: #FCFCFC; 
+}
+
+.brand {
+  font-size: 2.5em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.construct {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: #A90303;
+}
+
+.customNav {
+  font-family: 'Raleway', sans-serif;
+  font-variant: small-caps;
+  font-size: 1.25em;
+   padding-top: .3em; 
+}
+
+.footer1 {
+  display: inline-block;
+  margin-top: .4em;
+}
+
+.footer2 {
+  float: right;
+}
+
+.glyphy {
+  text-align: right;
+  font-size: 3.5em;
+}
+
+.icons {
+  width: 2.7em;
+  margin: 0 0 1em 1em;
+}
+
+.logo {
+  width: 1.5em;
+}
+
+.navImg {
+  width: 4.5em;
+}
+
+.navPadding {
+  padding-top: 2em;
+  padding-bottom: 0;
+}
+
+.pfLink:hover {
+  text-decoration: none;
+  box-shadow: .2em .2em .2em grey;
+}
+
+.pfpic {
+  font-family: 'Raleway', sans-serif;  
+}
+
+
+.pfpic:hover {
+  /* background-color: rgba(0, 0, 0, 0.1) */
+  filter: blur(.07em);
+}
+
+.portHead {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+
+.toggler {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
