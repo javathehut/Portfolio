@@ -1,0 +1,421 @@
+@-webkit-keyframes orbit2 {
+  from {
+    -webkit-transform: rotate(0deg) translateX(1em) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(1em) rotate(-360deg); } }
+@-moz-keyframes orbit2 {
+  from {
+    -moz-transform: rotate(0deg) translateX(1em) rotate(0deg); }
+  to {
+    -moz-transform: rotate(360deg) translateX(1em) rotate(-360deg); } }
+@-o-keyframes orbit2 {
+  from {
+    -o-transform: rotate(0deg) translateX(1em) rotate(0deg); }
+  to {
+    -o-transform: rotate(360deg) translateX(1em) rotate(-360deg); } }
+@keyframes orbit2 {
+  from {
+    transform: rotate(0deg) translateX(1em) rotate(0deg); }
+  to {
+    transform: rotate(360deg) translateX(1em) rotate(-360deg); } }
+@-webkit-keyframes typing {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+@-moz-keyframes typing {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+@-o-keyframes typing {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+@keyframes typing {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+.diff, .nurseQuote, .section1, .section2, .section3, .vid1, .vid2 {
+  width: fit-content;
+  font-family: arial, sans-serif; }
+
+body {
+  background-color: #2FB6EC; }
+
+.bigText {
+  font-size: 3em;
+  text-shadow: -1px 1px 6px grey;
+  margin: 0;
+  padding: 0; }
+
+.blocks, .blockBlue, .blockGreen, .blockSignUp, .blockWhite {
+  border-style: solid;
+  width: 0;
+  height: 0;
+  margin-left: -.75em;
+  position: absolute; }
+
+.blockBlue {
+  border-color: #0B233F;
+  top: 223.6%;
+  border-width: 20vh 50.5vw 21vh 50vw; }
+
+.blockGreen {
+  border-color: #39B44A;
+  border-width: 59vh 50.5vw 59vh 50vw;
+  top: 264%; }
+
+.blockSignUp {
+  border-color: #93D4F1;
+  height: 64vh;
+  width: 100vw;
+  top: 382%;
+  z-index: 1;
+  background: #93D4F1;
+  background: -webkit-radial-gradient(circle closest-side at center, white, #93D4F1);
+  background: -o-radial-gradient(circle closest-side at center, white, #93D4F1);
+  background: -moz-radial-gradient(circle closest-side at center, white, #93D4F1);
+  background: radial-gradient(circle closest-side at center, white, #93D4F1); }
+
+.blockWhite {
+  border-color: white;
+  top: 99%;
+  border-width: 25vh 50.5vw 25vh 50vw;
+  transform: rotate(5deg) scale(1) skew(5deg) translate(0px);
+  -webkit-transform: rotate(5deg) scale(1) skew(5deg) translate(0px);
+  -moz-transform: rotate(5deg) scale(1) skew(5deg) translate(0px);
+  -o-transform: rotate(5deg) scale(1) skew(5deg) translate(0px);
+  -ms-transform: rotate(5deg) scale(1) skew(5deg) translate(0px); }
+
+.button {
+  background-color: #39B44A;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  margin-left: -.65%;
+  vertical-align: top; }
+
+.circles, .playCircle, .section5 .center5 .circleBack, .section5 .left5 .animateLeft, .section5 .right5 .animateRight, .section5 .right5 .rightCircle {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%; }
+
+.diff {
+  font-size: 1.3em;
+  color: white;
+  text-transform: uppercase; }
+
+.drJeff2 {
+  font-size: .75em;
+  text-align: right;
+  margin: 0;
+  padding: 0; }
+
+.email {
+  color: #A1DBF4;
+  padding: 2% 20% 2% 2%;
+  margin: 0;
+  width: 40%;
+  font-size: 1.1em; }
+
+.form1 {
+  margin-left: 50%; }
+
+.nurseQuote {
+  font-size: 2em;
+  margin: 4.5em 0 2em 0;
+  color: white; }
+  .nurseQuote .drJeff {
+    font-size: .75em;
+    text-align: right;
+    margin: 0;
+    padding: 0; }
+
+.nurse1 {
+  background: #2FB6EC;
+  background: -webkit-radial-gradient(circle closest-side at center, white, #2FB6EC);
+  background: -o-radial-gradient(circle closest-side at center, white, #2FB6EC);
+  background: -moz-radial-gradient(circle closest-side at center, white, #2FB6EC);
+  background: radial-gradient(circle closest-side at center, white, #2FB6EC);
+  float: right;
+  z-index: -1;
+  right: 0%;
+  top: 16%;
+  width: 60%;
+  position: absolute; }
+  .nurse1 img {
+    float: right; }
+
+.pic2 {
+  background: #2FB6EC;
+  background: -webkit-radial-gradient(circle closest-side at center, white, #2FB6EC);
+  background: -o-radial-gradient(circle closest-side at center, white, #2FB6EC);
+  background: -moz-radial-gradient(circle closest-side at center, white, #2FB6EC);
+  background: radial-gradient(circle closest-side at center, white, #2FB6EC);
+  width: 40%;
+  display: inline-block; }
+  .pic2 img {
+    margin-left: 20%;
+    position: relative;
+    z-index: 1; }
+
+.playCircle {
+  position: absolute;
+  z-index: 2;
+  height: 5em;
+  width: 5em;
+  background-color: #2FB6EC;
+  left: 34%;
+  top: 76%; }
+  .playCircle .playTri {
+    width: 0;
+    height: 0;
+    border-top: .75em solid transparent;
+    border-left: 1.5em solid white;
+    border-bottom: .75em solid transparent;
+    margin-top: 35%;
+    margin-left: 35%; }
+
+.quote1, .quote2, .quote3, .quote4 {
+  opacity: 0.5;
+  position: absolute;
+  z-index: 0;
+  width: 7em; }
+
+.section1 {
+  display: inline-block;
+  margin: 2em 0 0 13em; }
+  .section1 .quote1 {
+    top: 23%;
+    left: 9%; }
+  .section1 .quote2 {
+    top: 41%;
+    left: 53%;
+    width: 3em; }
+
+.section2 {
+  position: relative;
+  z-index: 1;
+  padding: 8% 0 3% 0;
+  color: #33C3F0; }
+  .section2 .centerText {
+    width: 40%;
+    margin-left: 15%;
+    padding-top: .5%;
+    display: inline-block; }
+    .section2 .centerText span {
+      font-size: 2em; }
+  .section2 .vid2 {
+    width: 20%;
+    display: inline-block;
+    vertical-align: text-top;
+    float: right;
+    margin-right: 10%; }
+    .section2 .vid2 img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    .section2 .vid2 p {
+      text-align: center; }
+    .section2 .vid2 .watch {
+      text-transform: uppercase; }
+
+.section3 {
+  color: white;
+  margin: -35% 0 0 50%;
+  padding: 0;
+  width: 20em;
+  font-size: 1.5em; }
+  .section3 .preamble {
+    width: 30em;
+    padding-top: 4em;
+    font-size: .75em; }
+  .section3 .quote3 {
+    margin-left: -7%;
+    margin-top: -1%;
+    width: 4.5em; }
+  .section3 .quote4 {
+    margin-left: 27.5%;
+    margin-top: -6.5%;
+    width: 4.5em;
+    opacity: 0.3; }
+
+.section4 {
+  position: relative;
+  z-index: 1;
+  color: #96DBF4;
+  margin: 10% 0 0 30%;
+  font-family: arial, sans-serif;
+  width: 40%; }
+  .section4 .tweet {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    font-size: .8em;
+    text-transform: uppercase; }
+    .section4 .tweet img {
+      width: 25px;
+      height: 25px;
+      margin-top: .8em;
+      margin-bottom: .8em; }
+  .section4 p {
+    font-size: 1.5em;
+    text-align: center; }
+
+.section5 {
+  position: relative;
+  z-index: 1;
+  font-family: arial, sans-serif; }
+  .section5 .left5, .section5 .center5, .section5 .right5 {
+    display: inline-block; }
+  .section5 .center5 .circleBack {
+    width: 43em;
+    height: 43em;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    top: 47%;
+    left: 25.5%; }
+  .section5 .center5 .centerImg {
+    position: relative;
+    z-index: 5;
+    margin-top: 48.3%;
+    margin-left: 22%; }
+  .section5 .left5 .animateLeft {
+    width: 18em;
+    height: 18em;
+    position: absolute;
+    background: #0B233F;
+    top: 15%;
+    left: 13%; }
+  .section5 .left5 .greenBox {
+    width: fit-content;
+    padding: .5% 1%;
+    margin: 0;
+    background-color: #39B44A;
+    border: 1px solid #1F7E2C;
+    font-size: .6em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 42%;
+    left: 17.5%; }
+    .section5 .left5 .greenBox .greenP {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      width: 100%;
+      color: white; }
+  .section5 .left5 .leftImg {
+    position: relative;
+    z-index: 1;
+    margin: 0 0 75% 80%; }
+  .section5 .left5 .pLeft {
+    color: #E1EFF6;
+    width: 75%;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 6% 12%; }
+    .section5 .left5 .pLeft span {
+      font-size: .8em; }
+  .section5 .left5 .quote5, .section5 .left5 .quote6 {
+    opacity: .5;
+    position: absolute;
+    z-index: 1; }
+  .section5 .left5 .quote5 {
+    width: 6em;
+    top: 14%;
+    left: 11.5%; }
+  .section5 .left5 .quote6 {
+    width: 4em;
+    top: 37%;
+    left: 29%; }
+  .section5 .right5 .animateRight {
+    width: 11em;
+    height: 11em;
+    opacity: 0.7;
+    position: absolute;
+    background: #DAEBF3;
+    top: 20%;
+    left: 68%;
+    transform: rotate(45deg) translateX(1em);
+    -webkit-animation: orbit2 4s linear infinite;
+    /* Chrome, Safari 5 */
+    -moz-animation: orbit2 4s linear infinite;
+    /* Firefox 5-15 */
+    -o-animation: orbit2 4s linear infinite;
+    /* Opera 12+ */
+    animation: orbit2 4s linear infinite; }
+  .section5 .right5 .rightBottom {
+    position: absolute;
+    top: 65%;
+    left: 70%;
+    width: 20%; }
+    .section5 .right5 .rightBottom .rightImg {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+  .section5 .right5 .rightCircle {
+    width: 18em;
+    height: 18em;
+    position: absolute;
+    background: #DAEBF3;
+    top: 25%;
+    left: 70%; }
+  .section5 .right5 .pRight1, .section5 .right5 .pRight2, .section5 .right5 .lineStyle {
+    color: #0B233F; }
+  .section5 .right5 .pRight1 {
+    text-transform: uppercase;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #0B233F;
+    width: fit-content; }
+  .section5 .right5 .pRight2 {
+    width: 72%;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 8% 15%; }
+  .section5 .right5 .pRight3, .section5 .right5 .pRight4 {
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1; }
+  .section5 .right5 .pRight3 {
+    text-transform: uppercase;
+    font-size: 0.8em; }
+  .section5 .right5 .pRight4 {
+    font-size: 1.1em;
+    width: 80%;
+    margin: auto; }
+
+.section6 {
+  position: relative;
+  z-index: 1;
+  font-family: arial, sans-serif;
+  text-align: center;
+  padding-top: 10%; }
+  .section6 .form2 {
+    width: fit-content;
+    margin: auto; }
+    .section6 .form2 .email2 {
+      color: #A1DBF4;
+      padding: 2% 20% 2.5% 2%;
+      margin: 0;
+      width: 40%;
+      font-size: 1.1em; }
+  .section6 p {
+    color: #0B233F;
+    font-size: 2em;
+    margin-left: 30%;
+    margin-right: 30%; }
+
+.vid1 {
+  position: relative;
+  z-index: 1;
+  padding-top: 1.5em; }
+
+/*# sourceMappingURL=cstreet.css.map */

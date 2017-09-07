@@ -18,7 +18,7 @@ class About extends Component {
           </Col>
           <Col xs={12} md={5}>
             <div className="blurb">
-              JUNIOR FULL STACK WEB DEVELOPER SEEKING EXCITING CAREER/PROJECT OPPORTUNITIES
+              WEB DEVELOPER SEEKING EXCITING CAREER/PROJECT OPPORTUNITIES
           </div>
           </Col>
         </Row>
