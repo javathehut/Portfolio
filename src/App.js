@@ -17,8 +17,8 @@ class App extends Component {
             </Navbar.Header>
             <Navbar.Collapse>
               <Nav pullRight className="customNav">
-                <NavItem eventKey={1}><Link to="/">About</Link></NavItem>
-                <NavItem eventKey={2}><Link to="portfolio">Portfolio</Link></NavItem>
+                <NavItem eventKey={1}><Link to="/">Portfolio</Link></NavItem>
+                <NavItem eventKey={2} href="https://drive.google.com/open?id=0B3KezJtvS9TAemNqTV9tcWJmVm8" target="_blank">Résumé</NavItem>
                 <NavDropdown eventKey={3} title="Blogs" id="basic-nav-dropdown">
                   <MenuItem eventKey={3.1} href="http://chocolatycoding.com" target="_blank">Chocolaty Coding</MenuItem>
                   <MenuItem divider />
@@ -26,7 +26,7 @@ class App extends Component {
                   <MenuItem divider />
                   <MenuItem eventKey={3.3} href="http://lettersofacceptance.com" target="_blank">Letters of Acceptance</MenuItem>
                 </NavDropdown>
-                <NavItem eventKey={5} href="https://drive.google.com/open?id=0B3KezJtvS9TAemNqTV9tcWJmVm8" target="_blank">Résumé</NavItem>
+                <NavItem eventKey={5}><Link to="about">About</Link></NavItem>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

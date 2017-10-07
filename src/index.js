@@ -10,8 +10,8 @@ import registerServiceWorker from './registerServiceWorker';
 ReactDOM.render(
     <Router history={browserHistory}>    
         <Route path="/" component={App} >
-            <IndexRoute component={About} />
-            <Route path="portfolio" component={Portfolio} />
+            <IndexRoute component={Portfolio} />
+            <Route path="about" component={About} />
         </Route>
     </Router>, 
     document.getElementById('root'));

@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Grid, Row, Thumbnail, Col } from 'react-bootstrap';
+import { Grid, Row, Thumbnail, Col, Glyphicon } from 'react-bootstrap';
 import {portfolioItems} from './portfolioItems.js';
-
+import insta from './icons/instagram.png';
+import linkedin from './icons/linkedin.png';
+import twitter from './icons/twitter.png';
+import github from './icons/github.png';
+import { Link } from 'react-router';
 
 
 class Portfolio extends Component {
@@ -29,6 +33,17 @@ class Portfolio extends Component {
                         {myPortfolio}
                     </Row>
                 </Grid>
+                <hr />
+                <div className="footer1">
+                <p><Glyphicon glyph="copyright-mark" /> Angelique Lazarus | <em>Site created using React & React-Bootstrap</em> </p>
+              </div>
+              <div className="footer2">
+                <Link to="https://www.github.com/javathehut" target="_blank"><img className="icons" src={github} alt="github" /></Link>
+                <Link to="https://www.linkedin.com/in/angeliquelazarus/" target="_blank"><img className="icons" src={linkedin} alt="linkedin" /></Link>
+      
+                <Link to="https://www.instagram.com/chocolatycoding" target="_blank"><img className="icons" src={insta} alt="instagram" /></Link>
+                <Link to="https://twitter.com/ChocolatyCoding" target="_blank"><img className="icons" src={twitter} alt="twitter" /></Link>
+              </div>
             </div>
         );
     }
