@@ -12,7 +12,7 @@ class App extends Component {
           <Navbar bsStyle="" /*This just takes away some of the default styling*/>
             <Navbar.Header className="brand">
               ANGELIQUE <Link to="/"><img className="logo" src={logo} alt="Angelique Lazarus logo" /></Link> LAZARUS
-            <Navbar.Toggle children="&#9776;" className="toggler" /*This makes sure there's a hamburger on mobile*//>
+            <Navbar.Toggle  className="toggler" /*This makes sure there's a hamburger on mobile*//>
             
             </Navbar.Header>
             <Navbar.Collapse>

@@ -10,7 +10,7 @@ const portfolioItems = [
     },
     {
         title: "Scory Story",
-        link: "http://lajohn.pythonanywhere.com/",
+        link: "http://angelique.pythonanywhere.com/",
         image: "../portfolioImg/scorystory1.png",
         alt: "scory story logo",
         description: "A program that adds captivating soundtracks for written works. I built the front end appearance.",
