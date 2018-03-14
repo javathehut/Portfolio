@@ -1,9 +1,26 @@
-@media screen and (max-width: 990px) {
+.brand {
+  font-size: 2.5em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.brandSmallScreen {
+  font-size: 2.5em;
+  opacity: 0;
+}
+
+@media screen and (max-width: 767px) {
     .glyphy {
         display: none;
     }
     .aboutLead {
       font-size: 1.5em;
+    }
+    .brand {
+      display: none;
+    }
+    .brandSmallScreen {
+      opacity: 1;
     }
 }
 
@@ -47,12 +64,6 @@
 
 .bodyStyle {
    background-color: #FCFCFC; 
-}
-
-.brand {
-  font-size: 2.5em;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
 }
 
 .construct {

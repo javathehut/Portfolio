@@ -1,34 +1,73 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Navbar, NavItem, Nav, MenuItem, NavDropdown } from 'react-bootstrap';
-// import ResponsiveMenu from 'react-responsive-navbar';
+// import { Navbar, NavItem, Nav, MenuItem, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router';
 import logo from './images/angelLogo.png';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem } from 'reactstrap';
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      isOpen: false
+    };
+  }
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
+
   render() {
     return (
-      <div className="bodyStyle">
-        <div className="navPadding">
-          <Navbar bsStyle="" /*This just takes away some of the default styling*/>
-            <Navbar.Header className="brand">
-              ANGELIQUE <Link to="/"><img className="logo" src={logo} alt="Angelique Lazarus logo" /></Link> LAZARUS
-            </Navbar.Header>
-              <Nav pullRight className="customNav">
-                <NavItem eventKey={1}><Link to="/">Portfolio</Link></NavItem>
-                <NavItem eventKey={2} href="https://drive.google.com/open?id=0B3KezJtvS9TAemNqTV9tcWJmVm8" target="_blank">Download Résumé</NavItem>
-                <NavDropdown eventKey={3} title="Blogs" id="basic-nav-dropdown">
-                  <MenuItem eventKey={3.1} href="http://chocolatycoding.com" target="_blank">Chocolaty Coding</MenuItem>
-                  <MenuItem divider />
-                  <MenuItem eventKey={3.2} href="http://prettygirlrok.blogspot.com" target="_blank">Pretty Girl R.O.K.</MenuItem>
-                  <MenuItem divider />
-                  <MenuItem eventKey={3.3} href="http://lettersofacceptance.com" target="_blank">Letters of Acceptance</MenuItem>
-                </NavDropdown>
-                <NavItem eventKey={5}><Link to="about">About</Link></NavItem>
-              </Nav>
-            
-          </Navbar>
-        </div>
+      <div>
+        <Navbar color="faded" light expand="md">
+          <NavbarBrand className="brand" href="/">ANGELIQUE <img className="logo" src={logo} alt="Angelique Lazarus logo" /> LAZARUS</NavbarBrand>
+          <NavbarBrand className="brandSmallScreen" href="/"><img className="logo" src={logo} alt="Angelique Lazarus logo" /></NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Nav className="ml-auto customNav" navbar>
+            <UncontrolledDropdown nav inNavbar>
+            <DropdownToggle nav caret>
+              Blogs
+            </DropdownToggle>
+            <DropdownMenu >
+              <DropdownItem href="http://chocolatycoding.com" target="_blank">
+              Chocolaty Coding
+              </DropdownItem>
+              <DropdownItem divider />
+              <DropdownItem href="http://prettygirlrok.blogspot.com" target="_blank">
+              Pretty Girl R.O.K.
+              </DropdownItem>
+              <DropdownItem divider />
+              <DropdownItem href="http://lettersofacceptance.com" target="_blank">
+              Letters of Acceptance
+              </DropdownItem>
+            </DropdownMenu>
+          </UncontrolledDropdown>
+              <NavItem>
+                <NavLink href="about">About</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/">Portfolio</NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Navbar>
         <div className="container">
           {this.props.children}
         </div>
