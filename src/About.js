@@ -26,6 +26,7 @@ class About extends Component {
           <Glyphicon glyph="menu-down" />
         </div>
         <div>
+        <br />
           <h2 className="lead aboutLead">
             Angelique is a web developer, educator, and artist. In essence, she is a creator. Her passion and enthusiasm for learning, problem-solving, building, and languages have led her to pursue these 3 rewarding endeavours that allow her to fully explores these areas of interest.
           </h2><br />
