@@ -22,10 +22,10 @@ class Portfolio extends Component {
                         <Card className="pfLink">
                             <CardImg className="pfpic" top width="100%" src={portfolioItems[i].image} alt={portfolioItems[i].alt} />
                             <CardBody>
-                                <CardTitle className="page-header">{portfolioItems[i].title}</CardTitle>
+                                <CardTitle className="page-header"><strong>{portfolioItems[i].title}</strong></CardTitle>
                                 <CardSubtitle>{portfolioItems[i].description}</CardSubtitle>
-                                <CardText><p><strong>CREATED USING: </strong>{portfolioItems[i].tools}</p>
-                                    <p><strong>CODED: </strong>{portfolioItems[i].team}</p></CardText>
+                                <CardText><p>CREATED USING: {portfolioItems[i].tools}</p>
+                                    <p>CODED: {portfolioItems[i].team}</p></CardText>
                             </CardBody>
                         </Card>
                     </CardLink>

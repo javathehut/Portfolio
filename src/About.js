@@ -28,7 +28,7 @@ class About extends Component {
         <div>
         <br />
           <h2 className="lead aboutLead">
-            Angelique is a web developer, educator, and artist. In essence, she is a creator. Her passion and enthusiasm for learning, problem-solving, building, and languages have led her to pursue these 3 rewarding endeavours that allow her to fully explores these areas of interest.
+            Angelique is a web developer, educator, and artist. In essence, she is a creator. Her passion and enthusiasm for learning, problem-solving, building, and languages have led her to pursue these 3 rewarding endeavours that allow her to fully explore these areas of interest.
           </h2><br />
           <p className="whatsUp">
             <span className="aboutHeading">What she's up to currently:</span> <br />

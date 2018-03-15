@@ -1,13 +1,13 @@
 const portfolioItems = [
-    {
-        title: "CSS Challenge",
-        link: "../codingchallenge/cstreet.html",
-        image: "../portfolioImg/csschallenge.png",
-        alt: "css challenge logo",
-        description: "Created for a CSS coding challenge. Site built using a wireframe as reference.",
-        tools: "HTML, SASS/CSS (1 animation)",
-        team: "Solo"
-    },
+    // {
+    //     title: "CSS Challenge",
+    //     link: "../codingchallenge/cstreet.html",
+    //     image: "../portfolioImg/csschallenge.png",
+    //     alt: "css challenge logo",
+    //     description: "Created for a CSS coding challenge. Site built using a wireframe as reference.",
+    //     tools: "HTML, SASS/CSS (1 animation)",
+    //     team: "Solo"
+    // },
     {
         title: "Scory Story",
         link: "http://angelique.pythonanywhere.com/",
