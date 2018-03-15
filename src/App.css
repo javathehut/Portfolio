@@ -87,6 +87,10 @@
    padding-top: .3em; 
 }
 
+.download {
+  width: 1em;
+}
+
 .footer1 {
   display: inline-block;
   margin-top: .4em;

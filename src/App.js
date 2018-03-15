@@ -3,6 +3,7 @@ import './App.css';
 // import { Navbar, NavItem, Nav, MenuItem, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router';
 import logo from './images/angelLogo.png';
+import download from './images/download.png';
 import {
   Collapse,
   Navbar,
@@ -61,6 +62,9 @@ class App extends Component {
           </UncontrolledDropdown>
               <NavItem>
                 <NavLink href="about">About</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://drive.google.com/open?id=0B3KezJtvS9TAemNqTV9tcWJmVm8" target="_blank"><img className="download" src={download} alt="download icon" />Résumé</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/">Portfolio</NavLink>
