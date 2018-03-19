@@ -62,7 +62,7 @@ class About extends Component {
           <hr />
         </div>
         <div className="footer1">
-          <p><Glyphicon glyph="copyright-mark" /> Angelique Lazarus | <em>Site created using React & React-Bootstrap</em> </p>
+          <p><Glyphicon glyph="copyright-mark" /> Angelique Lazarus | <em>Site created using React & ReactStrap</em> </p>
         </div>
         <div className="footer2">
           <Link to="https://www.github.com/javathehut" target="_blank"><img className="icons" src={github} alt="github" /></Link>
