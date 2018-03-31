@@ -18,7 +18,7 @@ class Portfolio extends Component {
         let myPortfolio = portfolioItems.map((item, i) => {
             return (
                 <Col xs={12} md={4} key={i}>
-                    <CardLink href={portfolioItems[i].link} target="_blank">
+                    <CardLink href={portfolioItems[i].link} target="_blank" rel="noopener noreferrer">
                         <Card className="pfLink">
                             <CardImg className="pfpic" top width="100%" src={portfolioItems[i].image} alt={portfolioItems[i].alt} />
                             <CardBody>
@@ -47,11 +47,11 @@ class Portfolio extends Component {
                     <p><Glyphicon glyph="copyright-mark" /> Angelique Lazarus | <em>Site created using React & ReactStrap</em> </p>
                 </div>
                 <div className="footer2">
-                    <Link to="https://www.github.com/javathehut" target="_blank"><img className="icons" src={github} alt="github" /></Link>
-                    <Link to="https://www.linkedin.com/in/angeliquelazarus/" target="_blank"><img className="icons" src={linkedin} alt="linkedin" /></Link>
+                    <Link to="https://www.github.com/javathehut" target="_blank" rel="noopener noreferrer"><img className="icons" src={github} alt="github" /></Link>
+                    <Link to="https://www.linkedin.com/in/angeliquelazarus/" target="_blank" rel="noopener noreferrer"><img className="icons" src={linkedin} alt="linkedin" /></Link>
 
-                    <Link to="https://www.instagram.com/chocolatycoding" target="_blank"><img className="icons" src={insta} alt="instagram" /></Link>
-                    <Link to="https://twitter.com/ChocolatyCoding" target="_blank"><img className="icons" src={twitter} alt="twitter" /></Link>
+                    <Link to="https://www.instagram.com/chocolatycoding" target="_blank" rel="noopener noreferrer"><img className="icons" src={insta} alt="instagram" /></Link>
+                    <Link to="https://twitter.com/ChocolatyCoding" target="_blank" rel="noopener noreferrer"><img className="icons" src={twitter} alt="twitter" /></Link>
                 </div>
             </div>
         );

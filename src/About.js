@@ -55,21 +55,21 @@ class About extends Component {
             <span className="aboutHeading">ART</span><br />
             That one person in the room always singing something or other? That's Angelique.
             Much of her art has been vocal, from choral singing, to solo performances, musical theatre, 
-            and <Link to="https://www.voices.com/people/angelique333">voice acting. </Link>
-            Check her out in episode 3 of <strong><Link to="http://bigdata.show" target="_blank">'Big Data' 
+            and <Link to="https://www.voices.com/people/angelique333" target="_blank" rel="noopener noreferrer">voice acting. </Link>
+            Check her out in episode 3 of <strong><Link to="http://bigdata.show" target="_blank" rel="noopener noreferrer">'Big Data' 
             by Ryan Estrada.</Link></strong>
           </p>
           <hr />
         </div>
         <div className="footer1">
-          <p><Glyphicon glyph="copyright-mark" /> Angelique Lazarus | <em>Site created using React & ReactStrap</em> </p>
+          <p><Glyphicon glyph="copyright-mark" /> (C) Angelique Lazarus | <em>Site created using React & ReactStrap</em> </p>
         </div>
         <div className="footer2">
-          <Link to="https://www.github.com/javathehut" target="_blank"><img className="icons" src={github} alt="github" /></Link>
-          <Link to="https://www.linkedin.com/in/angeliquelazarus/" target="_blank"><img className="icons" src={linkedin} alt="linkedin" /></Link>
+          <Link to="https://www.github.com/javathehut" target="_blank" rel="noopener noreferrer"><img className="icons" src={github} alt="github" /></Link>
+          <Link to="https://www.linkedin.com/in/angeliquelazarus/" target="_blank" rel="noopener noreferrer"><img className="icons" src={linkedin} alt="linkedin" /></Link>
 
-          <Link to="https://www.instagram.com/chocolatycoding" target="_blank"><img className="icons" src={insta} alt="instagram" /></Link>
-          <Link to="https://twitter.com/ChocolatyCoding" target="_blank"><img className="icons" src={twitter} alt="twitter" /></Link>
+          <Link to="https://www.instagram.com/chocolatycoding" target="_blank" rel="noopener noreferrer"><img className="icons" src={insta} alt="instagram" /></Link>
+          <Link to="https://twitter.com/ChocolatyCoding" target="_blank" rel="noopener noreferrer"><img className="icons" src={twitter} alt="twitter" /></Link>
         </div>
       </div>
     );

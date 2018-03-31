@@ -47,15 +47,15 @@ class App extends Component {
               Blogs
             </DropdownToggle>
             <DropdownMenu >
-              <DropdownItem href="http://chocolatycoding.com" target="_blank">
+              <DropdownItem href="http://chocolatycoding.com" target="_blank" rel="noopener noreferrer">
               Chocolaty Coding
               </DropdownItem>
               <DropdownItem divider />
-              <DropdownItem href="http://prettygirlrok.blogspot.com" target="_blank">
+              <DropdownItem href="http://prettygirlrok.blogspot.com" target="_blank" rel="noopener noreferrer">
               Pretty Girl R.O.K.
               </DropdownItem>
               <DropdownItem divider />
-              <DropdownItem href="http://lettersofacceptance.com" target="_blank">
+              <DropdownItem href="http://lettersofacceptance.com" target="_blank" rel="noopener noreferrer">
               Letters of Acceptance
               </DropdownItem>
             </DropdownMenu>
@@ -64,7 +64,7 @@ class App extends Component {
                 <NavLink href="about">About</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://drive.google.com/open?id=0B3KezJtvS9TAemNqTV9tcWJmVm8" target="_blank"><img className="download" src={download} alt="download icon" />Résumé</NavLink>
+                <NavLink href="https://drive.google.com/open?id=0B3KezJtvS9TAemNqTV9tcWJmVm8" target="_blank" rel="noopener noreferrer"><img className="download" src={download} alt="download icon" />Résumé</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/">Portfolio</NavLink>
